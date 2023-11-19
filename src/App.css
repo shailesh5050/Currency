@@ -1,0 +1,95 @@
+.curImage{
+    width: 40px;
+}
+.wrapper{
+    position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+    background: linear-gradient(to bottom, rgb(114, 149, 181), #fff);
+}
+.container{
+    text-align: left !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+p{
+    width: 70%;
+    color: gray;
+    
+}
+.from,.to{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    width: 100px;
+    background-color: rgba(211, 211, 211, 0.846);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 0 3px;
+    font-size: 18px;
+}
+select{
+    border: none;
+    border: none;
+    outline: none;
+    color: gray;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.exc{
+    background-color: #26278e;
+    rotate: 90deg;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: 46%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+
+}
+.exc img{
+    width: 25px;
+    height: 25px;
+}
+.mt3{
+    margin-top: 50px;
+}
+.indication{
+    text-align: center;
+    width: 100vw;
+    
+    position: absolute;
+    top: 70%;
+    left: 10vw;
+}
+
+/* Remove up and down arrows from number input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
